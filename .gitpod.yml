@@ -13,7 +13,7 @@ ports:
     onOpen: open-preview
 
   - port: 5050
-    onOpen: open-previewpga
+    onOpen: open-preview
 
   - port: 50606
     onOpen: open-preview
