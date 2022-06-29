@@ -2,14 +2,6 @@
 image:
   file: .gitpod.Dockerfile
 
-ports:
-  - port: 3000
-    onOpen: open-browser
-  - port: 5432
-    onOpen: ignore
-  - port: 5555
-    onOpen: open-browser
-
 github:
   prebuilds:
     master: true
