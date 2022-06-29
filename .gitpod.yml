@@ -1,5 +1,6 @@
 # For more details, please see https://www.gitpod.io/docs/references/gitpod-yml
-image: gitpod/workspace-postgres
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
   - init: npm install
